@@ -1,0 +1,56 @@
+.nav-enlace{
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0px 10px 0px;
+}
+/*MODIFICA EL BOTON AL PONER EL MOUSE ARRIBA*/
+.nav-enlace:hover{
+
+    background: grey;
+    color: white;
+}
+
+nav{
+background: beige;
+padding: 10px;
+display: flex;
+justify-content: center;
+}
+
+/*BOTON DE NAVEGACION PARA MOBIL*/
+.nav-buttom
+{
+background: salmon;
+color: white;
+border-radius: 10px;
+border: 2px;
+border-color: rgb(248, 88, 70);
+display: none;
+}
+
+
+@media (max-width: 600px){
+   
+    .nav-buttom
+    {
+        display: inline-block;
+    }
+    .nav-enlace
+    { 
+        margin: 10px 0;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    .desaparece 
+    {
+        display: none;
+    }
+
+}
+    
