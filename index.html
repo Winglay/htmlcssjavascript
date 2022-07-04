@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-
-
-
     <title>Document</title>
 </head>
 <body>
+  
+
     <nav>
-        <button class="nav-buttom" onclick="accion()">Menu</button>
-        <a href="#" class="nav-enlace desaparece">Inicio</a>
-        <a href="#" class="nav-enlace desaparece">Nosotros</a>
-        <a href="#" class="nav-enlace desaparece">Servicios</a>
-        <a href="#" class="nav-enlace desaparece">Contacto</a>
+        <a class="nav-bar" href="">Inicio</a>
+        <a class="nav-bar" href="">Contacto</a>
+        
     </nav>
 
-<script>
-    function accion (){
-        console.log("funciona");
-        var ancla = document.getElementsByClassName("nav-enlace");
-        for (let i = 0; i < ancla.length; i++) {
-            ancla[i].classList.toggle("desaparece");
-            
-        }
-    }
-</script>
-
+    <h1>Desarrollador Frontend</h1>
+    <h5>Lucas Pelatti</h5>
 </body>
 </html>
